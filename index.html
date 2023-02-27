@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css" >
+    <link rel="stylesheet" href="estilos/media-query.css">
+
     <title>Projeto login</title>
 </head>
 <body>
@@ -21,18 +24,32 @@
                 </p>
                 <form action="" method="post" id="form">
                     <div class="container">
-                        <label for="iemail">Email</label>
-                        <input type="email" name="email" id="iemail" required >
+
+                        <label for="iemail">
+                            <span class="material-symbols-outlined">
+                            person
+                            </span>
+                        </label>
+                        <input type="email" name="email" id="iemail" required placeholder="Nome do usuário">
+
                     </div>
 
                     <div class="container">
-                        <label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha" required>
+
+                        <label for="isenha">
+                            <span class="material-symbols-outlined">
+                                key
+                            </span>
+                        </label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha">
+
                     </div>
 
                     <div >
+
                         <input type="button" value="Entrar" class="botões">
                         <input type="reset" value="Esqueceu a senha?" class="botões">
+
                     </div>
 
                 </form>

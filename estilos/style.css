@@ -25,7 +25,7 @@ main{
 
 section#login{
     background-color: white;
-    height: 500px;
+    height: 550px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
@@ -39,9 +39,10 @@ section#login{
 section#login > div#imagem{
     background: #5f2c82 url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
     background-position: bottom center;
+    background-size: cover;
     display: block;
     height: 200px;
-    background-size: cover;
+    
 }
 section#login > div#formulario{
     display: block;
@@ -53,10 +54,11 @@ section#login > div#formulario{
 }
 
 .container{
+    
     border: 1px solid black;
     background-color: #5f2c82;
     border-radius: 5px;
-    
+    padding: 10px;
     margin-bottom: 5px;
    
 }
