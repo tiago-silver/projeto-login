@@ -30,7 +30,7 @@
                             person
                             </span>
                         </label>
-                        <input type="email" name="email" id="iemail" required placeholder="Nome do usuário">
+                        <input type="email" name="email" id="iemail" required maxlength="50" placeholder="Nome do usuário" autocomplete="email" >
 
                     </div>
 
@@ -41,14 +41,14 @@
                                 key
                             </span>
                         </label>
-                        <input type="password" name="senha" id="isenha" required placeholder="Senha">
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder="Senha" autocomplete="current-password">
 
                     </div>
 
                     <div >
 
-                        <input type="button" value="Entrar" class="botões">
-                        <input type="reset" value="Esqueceu a senha?" class="botões">
+                        <input type="submit" value="Entrar" >
+                        <a class="botao" href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
 
                     </div>
 
